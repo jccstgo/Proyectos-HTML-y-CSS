@@ -1,0 +1,8 @@
+/*This part is the sytle paragraph*/
+p {
+	color:blue;
+	font-size:50px;
+	text-align:center;
+	text-shadow: 5px 5px #00ff00;
+}
+
