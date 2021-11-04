@@ -1,0 +1,13 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: 2px solid rgb(0, 174, 255);
+    padding: 10px;
+    border-radius: 25px;
+  }
+
+  img {
+    filter: grayscale(100%);
+  }
