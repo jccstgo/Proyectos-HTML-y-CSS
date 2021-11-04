@@ -285,7 +285,7 @@ section{
 .submit input[type="submit"]{
     color: rgb(255, 255, 255);
     cursor: pointer;
-    border: none;
+    border:paleturquoise;
     font-weight: 900;
     outline: none;
     text-align: center;
