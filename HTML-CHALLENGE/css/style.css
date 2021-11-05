@@ -1,13 +1,142 @@
-.center {
+.img-center {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    margin-bottom: 20px;
+    width: 20%;
+    height: 20%;
     border: 2px solid rgb(0, 174, 255);
     padding: 10px;
     border-radius: 25px;
   }
 
-  img {
-    filter: grayscale(100%);
+   img {
+    filter: blur(3px); 
+  }
+
+  .img-conteiner{
+    margin-top: 80px;
+    position: relative;
+    text-align: center;
+    color: rgb(0, 143, 168);
+  }
+
+  .img-conteiner:hover .img-overlay{
+      opacity: 1;
+  }
+
+  .img-overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #34a8d6;
+  }
+
+  .text-overlay {
+    color: rgb(226, 1, 1);
+    font-size: 50px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .img-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+  }
+
+  footer {
+    position: relative;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    background-color: rgb(199, 241, 199);
+    color: rgb(3, 0, 165);
+  }
+
+  h2{
+      text-align: center;
+  }
+
+  table {
+    text-align: center;
+    font-family: arial, sans-serif;
+    border:rgb(0, 61, 0);
+    width: 80%;
+  }
+  
+  td {
+    border: 1px solid #c5ece4;
+    text-align: left;
+    padding: 8px;
+  }
+
+  th{
+    background-color: rgb(95, 240, 143);
+  }
+  
+  .navbar {
+    overflow: hidden;
+    background-color: rgb(135, 183, 202);
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: #aa0a0a;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+
+  .main {
+    padding: 16px;
+    margin-top: 30px;
+    height: 1500px; 
+  }
+
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 50%;
+    background-color:rgba(255, 239, 20, 0.472);
+    color: saddlebrown;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 20px;
+    height: 200px;
+  }
+  
+  p:hover{
+      background: salmon;
+  }
+  
+  .video{
+      width: 200;
+      height: 200;
   }

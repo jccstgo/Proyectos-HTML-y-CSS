@@ -1,10 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-	<title>HTML 3</title>
+	
 	<head>
 		<link rel="stylesheet" type="text/css" href="./css/style.css">
+        <title>HTML Challenge</title>
 	</head>
-	<body>
-		<img src="./images/cat.png" alt="Paris" class="center">
+	
+    <body>
+
+        <div class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+    <div class="main">
+        <div class="img-conteiner" id="home">
+            <img src="./images/cat.png" alt="Paris" class="img-center">
+            <div class="img-overlay">
+                <div class="text-overlay">FELIS CATUS</div>
+              </div>
+            <div class="img-text">The cat (Felis catus).</div>
+        </div>		
+        <h2>Veterinarians</h2>
+        <div class="center" id="about">
+            <table>
+                <tr>
+                  <th>Name</th>
+                  <th>Address</th>
+                  <th>City</th>
+                </tr>
+                <tr>
+                  <td>Dr. Bautista</td>
+                  <td>Océano Antártico No. 8544 Esquina con Navarra. Colonia Villa Alegre</td>
+                  <td>Monterrey, Nuevo León (México)</td>
+                </tr>
+                <tr>
+                  <td>Francisco Chang</td>
+                  <td>Centro Moroleon Calle Tepeyac #184</td>
+                  <td>Moroleón, Guanajuato (México)</td>
+                </tr>
+                <tr>
+                  <td>Médico Fernando Hipólito Robles</td>
+                  <td>Av. Las Palmas # 5024 Col. Villa Dorada Entre Sandalo y Tecali</td>
+                  <td>Monterrey, Nuevo León (México)</td>
+                </tr>
+                <tr>
+                  <td>Mauricio Roque Sanchez</td>
+                  <td>Blvd. Luis Donaldo Colosio Entre Francisco J Mujica y Carabinerost</td>
+                  <td>La Paz, Baja California Sur (México)</td>
+                </tr>
+                <tr>
+                  <td>Montserrat Bucio Hernández</td>
+                  <td>Robles blancos Valle de Bravo, Rincón Villa del Valle</td>
+                  <td>Valle de Bravo, México (México)</td>
+                </tr>
+              </table>
+        </div>
+        
+        <div class="row">
+            <div class="column" >
+              <h2>Column 1</h2>
+            </div>
+            <div class="column" >
+              <h2>Column 2</h2>
+            </div>
+        </div>
+
+        <p>Paragraph element with HOVER EFECT</p>
+
+        <div class="video">
+            <video autoplay muted loop><source src="./video/cat.mp4" type="video/mp4"></video>
+        </div>
+        
+
+    </div>
+        
+        
 	</body>
+
+    <footer id="contact">
+        <p>Author: Jose Carlos Cruz Santiago</p>
+        <p><a href="jccstgo@gmail.com">jccstgo@gmail.com</a></p>
+    </footer>
 </html>
