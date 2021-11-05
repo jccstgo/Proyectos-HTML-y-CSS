@@ -2,6 +2,7 @@
 <html lang="en">
 	
 	<head>
+        <meta name="viewport" content="width=device-width"/>
 		<link rel="stylesheet" type="text/css" href="./css/style.css">
         <title>HTML Challenge</title>
 	</head>
@@ -15,13 +16,15 @@
         </div>
 
     <div class="main">
+        
         <div class="img-conteiner" id="home">
             <img src="./images/cat.png" alt="Paris" class="img-center">
             <div class="img-overlay">
                 <div class="text-overlay">FELIS CATUS</div>
               </div>
             <div class="img-text">The cat (Felis catus).</div>
-        </div>		
+        </div>	
+
         <h2>Veterinarians</h2>
         <div class="center" id="about">
             <table>
@@ -69,8 +72,9 @@
 
         <p>Paragraph element with HOVER EFECT</p>
 
-        <div class="video">
-            <video autoplay muted loop><source src="./video/cat.mp4" type="video/mp4"></video>
+        <div class="video-container">
+            <video width="400" height="400" autoplay muted loop controls><source src="./video/cat.mp4" type="video/mp4"></video>
+            <div class="text-video-overlay">TEXT OVERLAY</div>
         </div>
         
 
